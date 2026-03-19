@@ -1,0 +1,7 @@
+[build]
+  publish = "public"
+
+[[redirects]]
+  from = "/api/log_data"
+  to = "/.netlify/functions/log_data"
+  status = 200
